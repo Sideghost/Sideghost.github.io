@@ -2,9 +2,9 @@
     "name": "Carlos Pereira",
     "position": "Computer Science and Engineering Student",
     "url": "https://Sideghost.github.io",
-    "headline": "Yellow there 👋. Welcome to my personal website",
+    "headline": "Yellow there 👋. Welcome to my personal website!",
     "logoName": "Carlos Pereira",
-    "homeImageOPath": "website-creator-bro.svg",
+    "homeImagePath": "website-creator-bro.svg",
     "repository": "https://github.com/Sideghost/Sideghost.github.io",
     "resume": "https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/carlos+guilherme-cordeiro+pereira/4fc88ae1-7fd7-447f-9c7a-7e4d00d1a8e4?view=html",
     "github": "https://github.com/Sideghost",
@@ -266,7 +266,7 @@
             },
             {
                 "title": "Tools",
-                "imagePath": "tools-bro.svg",
+                "imagePath": "website-creator-bro.svg",
                 "skills": [
                     "⚡ Experience in developing software using IntelliJ IDEA.",
                     "⚡ Experience in developing software using Visual Studio Code.",
@@ -282,7 +282,7 @@
                     },
                     {
                         "skillName": "Visual Studio Code",
-                        "icon": "devicon-visualstudio-plain",
+                        "icon": "devicon-vscode-plain",
                         "style": {
                             "color": "#007ACC"
                         }
@@ -343,11 +343,12 @@
         "description": "I have worked as a Football Referee for the Football Association of Lisbon. I'm currently looking for a job in the IT area in order to put my knowledge into practice and learn even more.",
         "headerImagePath": "signing-a-contract-bro.svg",
         "icon": "fas fa-briefcase",
-        "experience": [
+        "experiences": [
             {
                 "title": "Student on the Course Coordination Committee",
                 "subtitle": "Instituto Superior de Engenharia de Lisboa",
                 "duration": "Nov 2022 - Jan 2023",
+                "logoPath": "isel_logo.png",
                 "description": [
                     "⚡ I was a part of a team that was the connection link between the students and the teachers/institution."
                 ],
@@ -357,6 +358,7 @@
                 "title": "Participant on the Formula Student Team @ ISEL",
                 "subtitle": "Instituto Superior de Engenharia de Lisboa",
                 "duration": "Oct 2020 - Jan 2021",
+                "logoPath": "ifs.svg",
                 "description": [
                     "⚡ Participation on the eletronical department in the IFS.",
                     "⚡ Work with Altium software to design PCBs."
@@ -367,6 +369,7 @@
                 "title": "Football Referee",
                 "subtitle": "Football Association of Lisbon",
                 "duration": "2018 - 2022",
+                "logoPath": "AF_Lisboa_Logo.png",
                 "description": [
                     "⚡ I have refereed several football matches in the Lisbon region, from the youngest to the oldest.",
                     "⚡ I have refereed matches in the 1st and 2nd divisions of the Lisbon Football Association."
@@ -388,12 +391,12 @@
                 "description": "This project is currently being developed and it's a web application for the management and visualization thu several dashboards of real time data related to the gas supply.",
                 "position": "Developer",
                 "url": "https://github.com/AGU-Data-System",
-                "logoPath": "TODO",
+                "logoPath": "TODO.svg",
                 "duration": "2024 - Present",
                 "technologies": [
                     {
                         "skillName": "TypeScript",
-                        "icon": "devicon:typescript",
+                        "icon": "devicon-typescript",
                         "style": {
                             "color": "#007ACC",
                             "fontSize": "32px"
@@ -401,7 +404,7 @@
                     },
                     {
                         "skillName": "React",
-                        "icon": "devicon:react",
+                        "icon": "devicon-react",
                         "style": {
                             "color": "#61DAFB",
                             "fontSize": "32px"
@@ -417,7 +420,7 @@
                     },
                     {
                         "skillName": "Spring",
-                        "icon": "devicon:spring",
+                        "icon": "devicon-spring",
                         "style": {
                             "color": "#6DB33F",
                             "fontSize": "32px"
@@ -441,6 +444,8 @@
                     }
                 ]
             }
+        ],
+        "publications": [
         ]
     },
     "about": {
@@ -452,7 +457,8 @@
         "hobbies": {
             "title": "Hobbies",
             "subtitle": "What I do in my free time",
-            "logoPath": "hobbies-bro.svg",
+            "description": "When I'm not studying or working, I like to spend my free time doing things I love. Here are some of my hobbies.",
+            "logoPath": "ecotourism-bro.svg",
             "hobbies" : [
                 {
                     "title": "Karate",
@@ -484,7 +490,7 @@
         "contact": {
             "title": "Contact Me",
             "description": "I'm always open to new opportunities and collaborations. If you have any questions or just want to say hi, feel free to reach out to me.",
-            "headerImagePath": "mention-bro.svg",
+            "logoPath": "mention-bro.svg",
             "icon": "fas fa-envelope",
             "email": "guilherme.cordeiro.pereira@gmail.com",
             "phone": "+351 965 719 040",

@@ -60,7 +60,7 @@ function ProjectCard({project}) {
                             height: "60px"
                         }}>
                             <ul className="dev-icons">
-                                {project.techStack.map((skill) => {
+                                {project.technologies.map((skill) => {
                                     return (
                                         <Tooltip title={skill.skillName} placement="top" key={skill.skillName}>
                                             <li className="software-skill-inline">

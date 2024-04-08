@@ -7,7 +7,7 @@ function ExperienceCard({experience}) {
     return (
         <Fade delay={0.5}>
             <div className="experience-card">
-                {experience.company.logoPath && (
+                {experience.logoPath && (
                     <JackInTheBox delay={0.5} triggerOnce>
                         <div className="card-img">
                             <img
@@ -16,7 +16,7 @@ function ExperienceCard({experience}) {
                                     maxHeight: "100%",
                                     transform: "scale(0.9)",
                                 }}
-                                src={require(`../../Assets/images/${experience.company.logoPath}`)}
+                                src={require(`../../Assets/images/${experience.logoPath}`)}
                                 alt={experience.company}
                             />
                         </div>
@@ -32,7 +32,7 @@ function ExperienceCard({experience}) {
                                 {experience.title}
                             </h2>
                             <h3 className="card-subtitle">
-                                <i className="fas fa-map-marker-alt"/> {experience.company.name}
+                                <i className="fas fa-map-marker-alt"/> {experience.subtitle}
                             </h3>
                         </div>
                         <div className="body-header-duration">
@@ -40,12 +40,12 @@ function ExperienceCard({experience}) {
                                 {experience.duration}
                             </h3>
 
-                            {experience.company.url && (
+                            {experience.url && (
                                 <Button
                                     className="duration"
                                     variant="contained"
                                     size="small"
-                                    onClick={() => window.open(experience.company.url)}
+                                    onClick={() => window.open(experience.url)}
                                     startIcon={<i className="fas fa-external-link-alt fa-2xs"></i>}
                                 >
                                     Website
@@ -54,7 +54,7 @@ function ExperienceCard({experience}) {
                         </div>
                     </div>
                     <div className="body-content">
-                        {experience.descriptions.map((sentence) => {
+                        {experience.description.map((sentence) => {
                             return (
                                 <p className="content-list" key={sentence}>
                                     {sentence}

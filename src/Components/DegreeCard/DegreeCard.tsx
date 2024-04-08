@@ -53,7 +53,7 @@ function DegreeCard({degree}) {
                         </div>
                     </div>
                     <div className="body-content">
-                        {degree.descriptions.map((sentence) => {
+                        {degree.description.map((sentence) => {
                             return (
                                 <p className="content-list" key={sentence}>
                                     {sentence}
