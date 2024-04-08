@@ -1,0 +1,206 @@
+.contact-main {
+    width: 100%;
+}
+
+.basic-contact {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.contact-heading-div {
+    display: flex;
+}
+
+.hobbies-heading-div {
+    display: flex;
+    margin-top: 80px;
+}
+
+.address-heading-div {
+    display: flex;
+    align-items: center;
+}
+
+.hobbies-heading-div > * {
+    flex: 1;
+}
+
+.contact-heading-div > * {
+    flex: 1;
+}
+
+.address-heading-div > * {
+    flex: 1;
+}
+
+.contact-heading-img-div {
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-heading-img-div {
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-heading-text-div {
+    text-align: center;
+}
+
+.hobbies-heading-text-div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-heading-text-div {
+    text-align: center;
+}
+
+.contact-heading-img-div > * {
+    max-width: 100%;
+    height: auto;
+}
+
+.blog-heading-img-div > * {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-heading-text {
+    font-size: 56px;
+    font-weight: 400;
+    font-family: "Google Sans Medium", sans-serif;
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.blog-heading-text {
+    font-size: 56px;
+    font-weight: 400;
+    font-family: "Google Sans Medium", sans-serif;
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.address-heading-text {
+    font-size: 30px;
+    font-family: "Google Sans Regular", sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.hobby-heading-text {
+    font-size: 20px;
+    font-family: "Google Sans Medium", sans-serif;
+    text-align: start;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 30%;
+}
+
+.contact-header-detail-text {
+    font-size: 20px;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 30px;
+    font-family: "Google Sans Medium", sans-serif;
+}
+
+.blog-header-detail-text {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 20px 8px;
+    font-family: "Google Sans Medium", sans-serif;
+}
+
+.resume-btn-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.blogsite-btn-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.address-btn-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+@media (max-width: 1380px) {
+    .contact-heading-text {
+        font-size: 50px;
+        margin-top: 60px;
+    }
+
+    .blog-heading-text {
+        font-size: 50px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-heading-text {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .blog-heading-text {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .address-heading-text {
+        font-size: 20px;
+    }
+
+    .hobbies-heading-div {
+        flex-direction: column-reverse;
+        margin-top: 60px;
+    }
+
+    .address-heading-div {
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .hobbies-heading-text-div {
+        margin-top: 40px;
+    }
+
+    .address-heading-text-div {
+        margin-top: 40px;
+    }
+
+    .contact-heading-div {
+        flex-direction: column;
+    }
+
+    .contact-header-detail-text {
+        font-size: 16px;
+        margin-left: 0;
+        margin-right: 0;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .blog-header-detail-text {
+        font-size: 16px;
+        margin-left: 0;
+        margin-right: 0;
+        line-height: normal;
+        text-align: center;
+    }
+}

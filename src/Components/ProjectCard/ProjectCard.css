@@ -1,0 +1,126 @@
+.project-card {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    font-family: "Google Sans Medium", sans-serif;
+    font-size: 23px;
+}
+
+.card-subtitle {
+    font-family: "Google Sans Medium", sans-serif;
+    font-size: 18px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.card-img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid #d9dbdf;
+    background: transparent;
+    box-shadow: 5px 5px 5px #d9dbdf;
+}
+
+.body-header {
+    max-width: inherit;
+    display: flex;
+    width: 100%;
+    background-color: #b6c2d2;
+    border-radius: 7px 7px 0 0;
+    padding: 10px;
+}
+
+.body-header-title {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+}
+
+.body-header-duration {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.duration {
+    font-family: "Google Sans Regular", sans-serif;
+    font-size: 16px;
+    padding-right: 10px;
+    float: right;
+}
+
+.project-body-content {
+    display: flex;
+    flex-direction: column;
+    max-width: inherit;
+    border-radius: 0 0 7px 7px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-content-list {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Google Sans Regular", sans-serif;
+    text-align: justify;
+}
+
+.card-body {
+    border-bottom: 1px solid #d9dbdf;
+    border-left: 1px solid #d9dbdf;
+    border-right: 1px solid #d9dbdf;
+    border-radius: 7px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px #d9dbdf;
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        flex-direction: column;
+    }
+
+    .body-header {
+        flex-direction: column;
+    }
+
+    .body-header-title {
+        width: 100%;
+    }
+
+    .body-header-duration {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .duration {
+        padding: 0;
+        margin: 0;
+        float: left;
+    }
+
+    .card-img {
+        width: 200px;
+    }
+
+    .card-body {
+        width: 100% !important;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-subtitle {
+        font-size: 16px;
+    }
+}

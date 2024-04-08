@@ -1,0 +1,495 @@
+{
+    "name": "Carlos Pereira",
+    "position": "Computer Science and Engineering Student",
+    "url": "https://Sideghost.github.io",
+    "headline": "Yellow there 👋. Welcome to my personal website",
+    "logoName": "Carlos Pereira",
+    "homeImageOPath": "website-creator-bro.svg",
+    "repository": "https://github.com/Sideghost/Sideghost.github.io",
+    "resume": "https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/carlos+guilherme-cordeiro+pereira/4fc88ae1-7fd7-447f-9c7a-7e4d00d1a8e4?view=html",
+    "github": "https://github.com/Sideghost",
+    "contacts": {
+        "title": "Contacts",
+        "subtitle": "Wanna reach out, fell free to contact me",
+        "description": "I'm always open to new opportunities and collaborations. If you have any questions or just want to say hi, feel free to reach out to me.",
+        "data": [
+            {
+                "name": "Linkedin",
+                "url": "https://www.linkedin.com/in/carlos-guilherme-pereira/",
+                "fontAwesomeIcon": "fa-brands fa-linkedin fa-2xl",
+                "backgroundColor": "#0077B5"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/Sideghost",
+                "fontAwesomeIcon": "fa-brands fa-github fa-2xl",
+                "backgroundColor": "#181717"
+            },
+            {
+                "name": "Email",
+                "url": "mailto:guilherme.cordeiro.pereira@gmail.com",
+                "fontAwesomeIcon": "fa-brands fa-google fa-2xl",
+                "backgroundColor": "#D14836"
+            },
+            {
+                "name": "Instagram",
+                "url": "https://www.instagram.com/sidegh0st/",
+                "fontAwesomeIcon": "fa-brands fa-instagram fa-2xl",
+                "backgroundColor": "#E4405F"
+            },
+            {
+                "name": "Spotify",
+                "url": "https://open.spotify.com/user/215bxe6ktzrxuhd5fexikhuki?si=IKkbE0FWQhuhqPVx-Eow4w",
+                "fontAwesomeIcon": "fa-brands fa-spotify fa-2xl",
+                "backgroundColor": "#1DA1F2"
+            }
+        ]
+    },
+    "seo": {
+        "title": "Carlos Pereira",
+        "description": "Computer Science & Engineering Student",
+        "og": {
+            "title": "Carlos Pereira",
+            "type": "website",
+            "url": "https://Sideghost.github.io"
+        }
+    },
+    "skills": {
+        "data": [
+            {
+                "title": "Programming Languages",
+                "imagePath": "code-typing-bro.svg",
+                "skills": [
+                    "⚡ Experience in developing software with several programming languages.",
+                    "⚡ Well-knowledge in Git and Github for version control development.",
+                    "⚡ Well-verdes in LaTeX for professional documentation."
+                ],
+                "softwareSkills": [
+                    {
+                        "skillName": "Kotlin",
+                        "icon": "devicon:kotlin",
+                        "style": {
+                            "color": "#B125EA"
+                        }
+                    },
+                    {
+                        "skillName": "Java",
+                        "icon": "devicon:java",
+                        "style": {
+                            "color": "#007396"
+                        }
+                    },
+                    {
+                        "skillName": "Python",
+                        "icon": "devicon:python",
+                        "style": {
+                            "color": "#3776AB"
+                        }
+                    },
+                    {
+                        "skillName": "C",
+                        "icon": "devicon:c",
+                        "style": {
+                            "color": "#A8B9CC"
+                        }
+                    },
+                    {
+                        "skillName": "Git",
+                        "icon": "devicon:git",
+                        "style": {
+                            "color": "#F05032"
+                        }
+                    },
+                    {
+                        "skillName": "GitHub",
+                        "icon": "devicon:github",
+                        "style": {
+                            "color": "#181717"
+                        }
+                    },
+                    {
+                        "skillName": "LaTeX",
+                        "icon": "skill-icons:latex-light",
+                        "style": {
+                            "color": "#008080"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Web Development",
+                "imagePath": "domain-names-bro.svg",
+                "skills": [
+                    "⚡ Experience in Backend development, ensuring scalability.",
+                    "⚡ Building responsive UI for web applications.",
+                    "⚡ Familiar with tools such as Webpack, NGINX, NodeJS and Postman for efficient development and testing."
+                ],
+                "softwareSkills": [
+                    {
+                        "skillName": "HTML5",
+                        "icon": "devicon:html5",
+                        "style": {
+                            "color": "#E34F26"
+                        }
+                    },
+                    {
+                        "skillName": "CSS3",
+                        "icon": "devicon:css3",
+                        "style": {
+                            "color": "#1572B6"
+                        }
+                    },
+                    {
+                        "skillName": "JavaScript",
+                        "icon": "devicon:javascript",
+                        "style": {
+                            "color": "#F7DF1E"
+                        }
+                    },
+                    {
+                        "skillName": "TypeScript",
+                        "icon": "devicon-typescript",
+                        "style": {
+                            "color": "#3178C6"
+                        }
+                    },
+                    {
+                        "skillName": "NodeJS",
+                        "icon": "devicon-nodejs",
+                        "style": {
+                            "color": "#339933"
+                        }
+                    },
+                    {
+                        "skillName": "ReactJS",
+                        "icon": "devicon-react",
+                        "style": {
+                            "color": "#61DAFB"
+                        }
+                    },
+                    {
+                        "skillName": "Material-UI",
+                        "icon": "devicon-materialui",
+                        "style": {
+                            "color": "#0081CB"
+                        }
+                    },
+                    {
+                        "skillName": "Bootstrap",
+                        "icon": "devicon-bootstrap",
+                        "style": {
+                            "color": "#563D7C"
+                        }
+                    },
+                    {
+                        "skillName": "Webpack",
+                        "icon": "devicon-webpack",
+                        "style": {
+                            "color": "#8DD6F9"
+                        }
+                    },
+                    {
+                        "skillName": "Spring",
+                        "icon": "devicon-spring",
+                        "style": {
+                            "color": "#6DB33F"
+                        }
+                    },
+                    {
+                        "skillName": "NGINX",
+                        "icon": "simple-icons:nginx",
+                        "style": {
+                            "color": "#009639"
+                        }
+                    },
+                    {
+                        "skillName": "Postman",
+                        "icon": "simple-icons:postman",
+                        "style": {
+                            "color": "#FF6C37"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Databases",
+                "imagePath": "server-bro.svg",
+                "skills": [
+                    "⚡ Proficient in Docker for efficient application deployment through containerization.",
+                    "⚡ Experience in Linux for effective server management and administration.",
+                    "⚡ Experience in developing software using PostgreSQL and MongoDB for persistent data."
+                ],
+                "softwareSkills": [
+                    {
+                        "skillName": "Docker",
+                        "icon": "devicon:docker",
+                        "style": {
+                            "color": "#2496ED"
+                        }
+                    },
+                    {
+                        "skillName": "Linux",
+                        "icon": "flat-color-icons:linux",
+                        "style": {
+                            "color": "#FCC624"
+                        }
+                    },
+                    {
+                        "skillName": "Android",
+                        "icon": "simple-icons:android",
+                        "style": {
+                            "color": "#3DDC84"
+                        }
+                    },
+                    {
+                        "skillName": "GitHub Actions",
+                        "icon": "devicon:githubactions",
+                        "style": {
+                            "color": "#2088FF"
+                        }
+                    },
+                    {
+                        "skillName": "PostgreSQL",
+                        "icon": "devicon:postgresql",
+                        "style": {
+                            "color": "#336791"
+                        }
+                    },
+                    {
+                        "skillName": "MongoDB",
+                        "icon": "devicon:mongodb",
+                        "style": {
+                            "color": "#47A248"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Tools",
+                "imagePath": "tools-bro.svg",
+                "skills": [
+                    "⚡ Experience in developing software using IntelliJ IDEA.",
+                    "⚡ Experience in developing software using Visual Studio Code.",
+                    "⚡ Experience in developing software using Android Studio."
+                ],
+                "softwareSkills": [
+                    {
+                        "skillName": "IntelliJ IDEA",
+                        "icon": "devicon-intellij-plain",
+                        "style": {
+                            "color": "#000000"
+                        }
+                    },
+                    {
+                        "skillName": "Visual Studio Code",
+                        "icon": "devicon-visualstudio-plain",
+                        "style": {
+                            "color": "#007ACC"
+                        }
+                    },
+                    {
+                        "skillName": "Android Studio",
+                        "icon": "devicon-android-plain",
+                        "style": {
+                            "color": "#3DDC84"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "education": {
+        "title": "Education",
+        "subtitle": "My academic journey",
+        "description": "I'm currently pursuing my Bachelor's degree in Computer Science and Engineering @ Instituto Superior de Engenharia de Lisboa and I'll finish it in July of 2024.",
+        "headerImagePath": "learning-bro.svg",
+        "icon": "fas fa-graduation-cap",
+        "degrees": [
+            {
+                "title": "Bachelor of Science - BSc. in Computer Science and Engineering",
+                "subtitle": "Instituto Superior de Engenharia de Lisboa - Instituto Politécnico de Lisboa",
+                "duration": "2020 - 2024",
+                "description": [
+                    "⚡ I have studied basic software engineering concepts of Computer Science, such as Algorithms and Data Structures, Object-Oriented Programming, Software Engineering, Databases, Computer Networks, Operating Systems, among others.",
+                    "⚡ Apart from this, I were in the Course Coordination Committee between 2022 and 2023, where I was a part of a team that was teh connection link between the students and the teachers/institution."
+                ],
+                "url": "https://www.isel.pt/en"
+            },
+            {
+                "title": "Erasmus+ Student",
+                "subtitle": "Faculty of Electrical Engineering and Computer Science - University of Maribor",
+                "duration": "Set 2022 - Feb 2023",
+                "description": [
+                    "⚡ A semester abroad in Maribor as an Erasmus+ Student.",
+                    "⚡ I have studied subjects such as Web Fundaments, Development Technologies for Intelligent Solutions, and Quality Assurance."
+                ],
+                "url": "https://www.feri.um.si/en/"
+            },
+            {
+                "title": "Erasmus+ Student",
+                "subtitle": "Faculty of Economics and Business - University of Maribor",
+                "duration": "Set 2022 - Feb 2023",
+                "description": [
+                    "⚡ A semester abroad in Maribor as an Erasmus+ Student.",
+                    "⚡ I have studied a subject called E-business Information Systems."
+                ],
+                "url": "https://www.epf.um.si/en/"
+            }
+        ]
+    },
+    "experience": {
+        "title": "Experience",
+        "subtitle": "My professional journey",
+        "description": "I have worked as a Football Referee for the Football Association of Lisbon. I'm currently looking for a job in the IT area in order to put my knowledge into practice and learn even more.",
+        "headerImagePath": "signing-a-contract-bro.svg",
+        "icon": "fas fa-briefcase",
+        "experience": [
+            {
+                "title": "Student on the Course Coordination Committee",
+                "subtitle": "Instituto Superior de Engenharia de Lisboa",
+                "duration": "Nov 2022 - Jan 2023",
+                "description": [
+                    "⚡ I was a part of a team that was the connection link between the students and the teachers/institution."
+                ],
+                "url": "https://www.isel.pt/en"
+            },
+            {
+                "title": "Participant on the Formula Student Team @ ISEL",
+                "subtitle": "Instituto Superior de Engenharia de Lisboa",
+                "duration": "Oct 2020 - Jan 2021",
+                "description": [
+                    "⚡ Participation on the eletronical department in the IFS.",
+                    "⚡ Work with Altium software to design PCBs."
+                ],
+                "url": "https://www.isel.pt/en"
+            },
+            {
+                "title": "Football Referee",
+                "subtitle": "Football Association of Lisbon",
+                "duration": "2018 - 2022",
+                "description": [
+                    "⚡ I have refereed several football matches in the Lisbon region, from the youngest to the oldest.",
+                    "⚡ I have refereed matches in the 1st and 2nd divisions of the Lisbon Football Association."
+                ],
+                "url": "https://afl.pt/"
+            }
+        ]
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "subtitle": "My projects",
+        "description": "Here are some of the projects I have worked on. Feel free to check them out.",
+        "headerImagePath": "timeline-bro.svg",
+        "icon": "fas fa-project-diagram",
+        "projects": [
+            {
+                "title": "AGU - Data System",
+                "subtitle": "A web application for the management and visualization of real time data related to the gas supply.",
+                "description": "This project is currently being developed and it's a web application for the management and visualization thu several dashboards of real time data related to the gas supply.",
+                "position": "Developer",
+                "url": "https://github.com/AGU-Data-System",
+                "logoPath": "TODO",
+                "duration": "2024 - Present",
+                "technologies": [
+                    {
+                        "skillName": "TypeScript",
+                        "icon": "devicon:typescript",
+                        "style": {
+                            "color": "#007ACC",
+                            "fontSize": "32px"
+                        }
+                    },
+                    {
+                        "skillName": "React",
+                        "icon": "devicon:react",
+                        "style": {
+                            "color": "#61DAFB",
+                            "fontSize": "32px"
+                        }
+                    },
+                    {
+                        "skillName": "Kotlin",
+                        "icon": "devicon:kotlin",
+                        "style": {
+                            "color": "#B125EA",
+                            "fontSize": "32px"
+                        }
+                    },
+                    {
+                        "skillName": "Spring",
+                        "icon": "devicon:spring",
+                        "style": {
+                            "color": "#6DB33F",
+                            "fontSize": "32px"
+                        }
+                    },
+                    {
+                        "skillName": "Docker",
+                        "icon": "devicon:docker",
+                        "style": {
+                            "color": "#2496ED",
+                            "fontSize": "32px"
+                        }
+                    },
+                    {
+                        "skillName": "PostgreSQL",
+                        "icon": "devicon:postgresql",
+                        "style": {
+                            "color": "#336791",
+                            "fontSize": "32px"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "about": {
+        "title": "About Me",
+        "subtitle": "Get to know me",
+        "description": "I'm a Computer Science and Engineering student at Instituto Superior de Engenharia de Lisboa. I'm passionate about technology and I'm always looking for new challenges and opportunities to learn and grow.",
+        "headerImagePath": "carlos-pereira.jpg",
+        "icon": "fas fa-user",
+        "hobbies": {
+            "title": "Hobbies",
+            "subtitle": "What I do in my free time",
+            "logoPath": "hobbies-bro.svg",
+            "hobbies" : [
+                {
+                    "title": "Karate",
+                    "description": "I have been practicing karate since I'm 6 years old. I'm currently a 2nd Kyu Brown Belt.",
+                    "icon": "fas fa-fist-raised"
+                },
+                {
+                    "title": "Music",
+                    "description": "I love listening to music. I have a wide range of musical tastes, from rock to hip-hop.",
+                    "icon": "fas fa-music"
+                },
+                {
+                    "title": "Traveling",
+                    "description": "I love to travel and explore new places and cultures.",
+                    "icon": "fas fa-plane"
+                },
+                {
+                    "title": "Languages",
+                    "description": "My new found hobby is learning new languages.",
+                    "icon": "fas fa-language"
+                },
+                {
+                    "title": "Working Out",
+                    "description": "I love sports and working out. I try to keep a healthy lifestyle.",
+                    "icon": "fas fa-dumbbell"
+                }
+            ]
+        },
+        "contact": {
+            "title": "Contact Me",
+            "description": "I'm always open to new opportunities and collaborations. If you have any questions or just want to say hi, feel free to reach out to me.",
+            "headerImagePath": "mention-bro.svg",
+            "icon": "fas fa-envelope",
+            "email": "guilherme.cordeiro.pereira@gmail.com",
+            "phone": "+351 965 719 040",
+            "address": "Lisbon, Portugal",
+            "addressLink": "https://www.google.com/maps/place/Lisbon/data=!4m2!3m1!1s0xd19331a61e4f33b:0x400ebbde49036d0?sa=X&ved=2ahUKEwjQ9tWGx9T_AhWsVqQEHZaaDj4Q8gF6BAgQEAI"
+        }
+    }
+}
