@@ -2,8 +2,8 @@ import React from "react";
 import "./ProjectCard.css";
 import "../Skills/Skills.css";
 import {Fade, JackInTheBox} from "react-awesome-reveal";
-import {Button, Tooltip} from "@mui/material";
-import {Icon} from "@iconify/react";
+import {Button} from "@mui/material";
+import {SoftwareIcons} from "../Skills/Skills";
 
 function ProjectCard({project}) {
     return (
@@ -73,15 +73,7 @@ function ProjectCard({project}) {
                             height: "60px"
                         }}>
                             <ul className="dev-icons">
-                                {project.technologies.map((skill) => {
-                                    return (
-                                        <Tooltip title={skill.skillName} placement="top" key={skill.skillName}>
-                                            <li className="software-skill-inline">
-                                                <Icon icon={skill.icon} style={skill.style}/>
-                                            </li>
-                                        </Tooltip>
-                                    );
-                                })}
+                                <SoftwareIcons softwareSkills={project.technologies}/>
                             </ul>
                         </div>
                         <p className="project-content-list">

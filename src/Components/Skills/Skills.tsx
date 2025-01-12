@@ -34,7 +34,7 @@ export default function Skills() {
                                         <h1 className="skills-heading">
                                             {skill.title}
                                         </h1>
-                                        <SoftwareSkills softwareSkills={skill.softwareSkills}/>
+                                        <SoftwareIcons softwareSkills={skill.softwareSkills}/>
                                         <div>
                                             {skill.skills.map((skillSentence) => {
                                                 return (
@@ -70,7 +70,7 @@ export interface SoftwareSkillsProps {
  *
  * @param softwareSkills Software skills.
  */
-export function SoftwareSkills({softwareSkills}: SoftwareSkillsProps) {
+export function SoftwareIcons({softwareSkills}: SoftwareSkillsProps) {
     return (
         <div>
             <div className="software-skills-main-div">
