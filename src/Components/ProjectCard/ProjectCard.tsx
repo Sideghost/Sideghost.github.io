@@ -50,7 +50,20 @@ function ProjectCard({project}) {
                                     onClick={() => window.open(project.url)}
                                     startIcon={<i className="fas fa-external-link-alt fa-2xs"></i>}
                                 >
-                                    Website
+                                    Project
+                                </Button>
+                            )}
+
+                            {project.clientUrl && (
+                                <Button
+                                    className="duration"
+                                    variant="contained"
+                                    size="small"
+                                    onClick={() => window.open(project.clientUrl)}
+                                    startIcon={<i className="fas fa-external-link-alt fa-2xs"></i>}
+                                    style={{ margin: "8px 0" }}
+                                >
+                                    Client Website
                                 </Button>
                             )}
                         </div>

@@ -57,12 +57,12 @@
     "skills": {
         "data": [
             {
-                "title": "Programming Languages",
+                "title": "Programming Languages & DevOps",
                 "imagePath": "code-typing-bro.svg",
                 "skills": [
-                    "⚡ Experience in developing software with several programming languages.",
-                    "⚡ Well-knowledge in Git and Github for version control development.",
-                    "⚡ Well-verdes in LaTeX for professional documentation."
+                    "🌐 Experience in software development with several programming languages.",
+                    "🌐 Well-knowledge in Git and Github for version control development.",
+                    "🌐 Well-verdes in LaTeX for professional documentation."
                 ],
                 "softwareSkills": [
                     {
@@ -77,6 +77,20 @@
                         "icon": "devicon:java",
                         "style": {
                             "color": "#007396"
+                        }
+                    },
+                    {
+                        "skillName": "JavaScript",
+                        "icon": "devicon:javascript",
+                        "style": {
+                            "color": "#F7DF1E"
+                        }
+                    },
+                    {
+                        "skillName": "TypeScript",
+                        "icon": "devicon:typescript",
+                        "style": {
+                            "color": "#3178C6"
                         }
                     },
                     {
@@ -108,6 +122,13 @@
                         }
                     },
                     {
+                        "skillName": "GitHub Actions",
+                        "icon": "devicon:githubactions",
+                        "style": {
+                            "color": "#2088FF"
+                        }
+                    },
+                    {
                         "skillName": "LaTeX",
                         "icon": "skill-icons:latex-light",
                         "style": {
@@ -120,9 +141,9 @@
                 "title": "Web Development",
                 "imagePath": "domain-names-bro.svg",
                 "skills": [
-                    "⚡ Experience in Backend development, ensuring scalability.",
-                    "⚡ Building responsive UI for web applications.",
-                    "⚡ Familiar with tools such as Webpack, NGINX, NodeJS and Postman for efficient development and testing."
+                    "🌐 Experience in Backend development, ensuring scalability.",
+                    "🌐 Building responsive UI for web applications.",
+                    "🌐 Familiar with tools such as Webpack, NGINX, NodeJS and Postman for efficient development and testing."
                 ],
                 "softwareSkills": [
                     {
@@ -137,20 +158,6 @@
                         "icon": "devicon:css3",
                         "style": {
                             "color": "#1572B6"
-                        }
-                    },
-                    {
-                        "skillName": "JavaScript",
-                        "icon": "devicon:javascript",
-                        "style": {
-                            "color": "#F7DF1E"
-                        }
-                    },
-                    {
-                        "skillName": "TypeScript",
-                        "icon": "devicon-typescript",
-                        "style": {
-                            "color": "#3178C6"
                         }
                     },
                     {
@@ -212,12 +219,98 @@
                 ]
             },
             {
-                "title": "Databases",
+                "title": "Quality Assurance",
+                "imagePath": "software-tester-bro.svg",
+                "skills": [
+                    "🌐 Experience in Selenium for live testing.",
+                    "🌐 Proficient with JUnit5 for unit testing.",
+                    "🌐 Experience with ADB for android testing."
+                ],
+                "softwareSkills" : [
+                    {
+                        "skillName": "JUnit5",
+                        "icon": "devicon:junit",
+                        "style": {
+                            "color": "#dc514a"
+                        }
+                    },
+                    {
+                        "skillName": "Selenium",
+                        "icon": "devicon:selenium",
+                        "style": {
+                            "color": "#42f566"
+                        }
+                    },
+                    {
+                        "skillName": "ADB",
+                        "icon": "devicon:android",
+                        "style": {
+                            "color": "#fff"
+                        }
+                    }
+
+                ]
+            },
+            {
+                "title": "Cloud Infrastructure & Databases",
                 "imagePath": "server-bro.svg",
                 "skills": [
-                    "⚡ Proficient in Docker for efficient application deployment through containerization.",
-                    "⚡ Experience in Linux for effective server management and administration.",
-                    "⚡ Experience in developing software using PostgreSQL and MongoDB for persistent data."
+                    "🌐 Experience Cloud development for high availability applications.",
+                    "🌐 Proficient in Docker for efficient application deployment through containerization.",
+                    "🌐 Experience in developing software using several databases for persistent data."
+                ],
+                "softwareSkills": [
+                    {
+                        "skillName": "Microsoft Azure",
+                        "icon": "devicon:azure",
+                        "style": {
+                            "color": "#114A8B"
+                        }
+                    },
+                    {
+                        "skillName": "Kubernetes",
+                        "icon": "devicon:kubernetes",
+                        "style": {
+                            "color": "#326ce5"
+                        }
+                    },
+                    {
+                        "skillName": "Docker",
+                        "icon": "devicon:docker",
+                        "style": {
+                            "color": "#2496ED"
+                        }
+                    },
+                    {
+                        "skillName": "PostgresSQL",
+                        "icon": "devicon:postgresql",
+                        "style": {
+                            "color": "#336791"
+                        }
+                    },
+                    {
+                        "skillName": "MongoDB",
+                        "icon": "devicon:mongodb",
+                        "style": {
+                            "color": "#47A248"
+                        }
+                    },
+                    {
+                        "skillName": "MySQL",
+                        "icon": "devicon:mysql",
+                        "style": {
+                            "color": "#00618A"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "OS & System Architecture",
+                "imagePath": "source-code-bro.svg",
+                "skills": [
+                    "🌐 Proficient in Docker for efficient application deployment through containerization.",
+                    "🌐 Experience in Linux for effective server management and administration.",
+                    "🌐 Experience in developing software using PostgresSQL and MongoDB for persistent data."
                 ],
                 "softwareSkills": [
                     {
@@ -242,56 +335,10 @@
                         }
                     },
                     {
-                        "skillName": "GitHub Actions",
-                        "icon": "devicon:githubactions",
+                        "skillName": "Tomcat server",
+                        "icon": "devicon:tomcat",
                         "style": {
-                            "color": "#2088FF"
-                        }
-                    },
-                    {
-                        "skillName": "PostgreSQL",
-                        "icon": "devicon:postgresql",
-                        "style": {
-                            "color": "#336791"
-                        }
-                    },
-                    {
-                        "skillName": "MongoDB",
-                        "icon": "devicon:mongodb",
-                        "style": {
-                            "color": "#47A248"
-                        }
-                    }
-                ]
-            },
-            {
-                "title": "Tools",
-                "imagePath": "website-creator-bro.svg",
-                "skills": [
-                    "⚡ Experience in developing software using IntelliJ IDEA.",
-                    "⚡ Experience in developing software using Visual Studio Code.",
-                    "⚡ Experience in developing software using Android Studio."
-                ],
-                "softwareSkills": [
-                    {
-                        "skillName": "IntelliJ IDEA",
-                        "icon": "devicon-intellij-plain",
-                        "style": {
-                            "color": "#000000"
-                        }
-                    },
-                    {
-                        "skillName": "Visual Studio Code",
-                        "icon": "devicon-vscode-plain",
-                        "style": {
-                            "color": "#007ACC"
-                        }
-                    },
-                    {
-                        "skillName": "Android Studio",
-                        "icon": "devicon-android-plain",
-                        "style": {
-                            "color": "#3DDC84"
+                            "color": ""
                         }
                     }
                 ]
@@ -301,17 +348,29 @@
     "education": {
         "title": "Education",
         "subtitle": "My academic journey",
-        "description": "I'm currently pursuing my Bachelor's degree in Computer Science and Engineering @ Instituto Superior de Engenharia de Lisboa and I'll finish it in July of 2024.",
+        "description": "I'm currently pursuing my Masters degree @ Nova FCT after my Bachelor's degree in Computer Science and Engineering @ Instituto Superior de Engenharia de Lisboa.",
         "headerImagePath": "learning-bro.svg",
         "icon": "fas fa-graduation-cap",
         "degrees": [
             {
+                "title": "Master of Science - MSc. in Computer Science and Engineering",
+                "subtitle": "Faculdade de Ciências e Tecnologia - Universidade NOVA de Lisboa",
+                "duration": "2024 - Present",
+                "logoPath": "nova-fct.png",
+                "description": [
+                    "🌐 Specialization in 'Programming Languages and Software Systems'.",
+                    "🌐 Additional Focus area 'Distributed Systems'."
+                ],
+                "url": "https://www.fct.unl.pt/"
+            },
+            {
                 "title": "Bachelor of Science - BSc. in Computer Science and Engineering",
                 "subtitle": "Instituto Superior de Engenharia de Lisboa - Instituto Politécnico de Lisboa",
                 "duration": "2020 - 2024",
+                "logoPath": "isel_logo.png",
                 "description": [
-                    "⚡ I have studied basic software engineering concepts of Computer Science, such as Algorithms and Data Structures, Object-Oriented Programming, Software Engineering, Databases, Computer Networks, Operating Systems, among others.",
-                    "⚡ Apart from this, I were in the Course Coordination Committee between 2022 and 2023, where I was a part of a team that was teh connection link between the students and the teachers/institution."
+                    "🌐 I have studied basic software engineering concepts of Computer Science, such as Algorithms and Data Structures, Object-Oriented Programming, Software Engineering, Databases, Computer Networks, Operating Systems, among others.",
+                    "🌐 Apart from this, I was in the Course Coordination Committee between 2022 and 2023, where I was a part of a team that was the connection link between the students and the teachers/institution."
                 ],
                 "url": "https://www.isel.pt/en"
             },
@@ -319,9 +378,10 @@
                 "title": "Erasmus+ Student",
                 "subtitle": "Faculty of Electrical Engineering and Computer Science - University of Maribor",
                 "duration": "Set 2022 - Feb 2023",
+                "logoPath": "logo-um-feri.png",
                 "description": [
-                    "⚡ A semester abroad in Maribor as an Erasmus+ Student.",
-                    "⚡ I have studied subjects such as Web Fundaments, Development Technologies for Intelligent Solutions, and Quality Assurance."
+                    "🌐 A semester abroad in Maribor as an Erasmus+ Student.",
+                    "🌐 I have studied subjects such as Web Fundaments, Development Technologies for Intelligent Solutions, and Quality Assurance."
                 ],
                 "url": "https://www.feri.um.si/en/"
             },
@@ -329,9 +389,10 @@
                 "title": "Erasmus+ Student",
                 "subtitle": "Faculty of Economics and Business - University of Maribor",
                 "duration": "Set 2022 - Feb 2023",
+                "logoPath": "logo-um-feb.png",
                 "description": [
-                    "⚡ A semester abroad in Maribor as an Erasmus+ Student.",
-                    "⚡ I have studied a subject called E-business Information Systems."
+                    "🌐 A semester abroad in Maribor as an Erasmus+ Student.",
+                    "🌐 I have studied a subject called E-business Information Systems."
                 ],
                 "url": "https://www.epf.um.si/en/"
             }
@@ -345,12 +406,23 @@
         "icon": "fas fa-briefcase",
         "experiences": [
             {
+                "title": "Software Engineer Intern",
+                "subtitle": "Vodafone Portugal",
+                "duration": "Jun 2024 - Present",
+                "logoPath": "vodafone.png",
+                "description": [
+                    "🌐 Enhanced a pre-existing automated test scheduling system, which already used Java 8 and Quartz but was limited to scheduling a single test execution. The system was upgraded to support grouping test executions by recurrence and alarms, scaling from 1 execution to an MxN model for increased flexibility.",
+                    "🌐 A key challenge was optimizing the existing Quartz setup to efficiently handle multiple concurrent executions without degrading performance. By refining Quartz configurations and improving the responsiveness of the upgraded GUI, the system now manages a higher volume of test executions seamlessly."
+                ],
+                "url": "https://www.vodafone.pt"
+            },
+            {
                 "title": "Student on the Course Coordination Committee",
                 "subtitle": "Instituto Superior de Engenharia de Lisboa",
                 "duration": "Nov 2022 - Jan 2023",
                 "logoPath": "isel_logo.png",
                 "description": [
-                    "⚡ I was a part of a team that was the connection link between the students and the teachers/institution."
+                    "🌐 I was a part of a team that was the connection link between the students and the teachers/institution."
                 ],
                 "url": "https://www.isel.pt/en"
             },
@@ -360,8 +432,8 @@
                 "duration": "Oct 2020 - Jan 2021",
                 "logoPath": "ifs.svg",
                 "description": [
-                    "⚡ Participation on the eletronical department in the IFS.",
-                    "⚡ Work with Altium software to design PCBs."
+                    "🌐 Participation on the electronic department in the IFS.",
+                    "🌐 Work with Altium software to design PCBs."
                 ],
                 "url": "https://www.isel.pt/en"
             },
@@ -371,8 +443,8 @@
                 "duration": "2018 - 2022",
                 "logoPath": "AF_Lisboa_Logo.png",
                 "description": [
-                    "⚡ I have refereed several football matches in the Lisbon region, from the youngest to the oldest.",
-                    "⚡ I have refereed matches in the 1st and 2nd divisions of the Lisbon Football Association."
+                    "🌐 I have refereed several football matches in the Lisbon region, from the youngest to the oldest.",
+                    "🌐 I have refereed matches in the 1st and 2nd divisions of the Lisbon Football Association."
                 ],
                 "url": "https://afl.pt/"
             }
@@ -387,26 +459,23 @@
         "projects": [
             {
                 "title": "AGU - Data System",
-                "subtitle": "A web application for the management and visualization of real time data related to the gas supply.",
-                "description": "This project is currently being developed and it's a web application for the management and visualization thu several dashboards of real time data related to the gas supply.",
+                "subtitle": "A full stack Web application for the management and visualization of real time gas supply.",
+                "description": [
+                    "The AGU Data System is an advanced web application developed for GALP. It is designed to enhance the visualization of real-time gas consumption and optimize the planning of gas load distribution to tanks across the country. ",
+                    "Once fully deployed, the system enables accurate forecasting of gas consumption, allowing for precise scheduling of subsequent gas load deliveries. ",
+                    "Built on a microservice-based architecture, the system ensures scalability and flexibility, with each microservice operating independently, except for the core application that orchestrates the entire process. This architecture allows for efficient management and seamless integration of various components within the system"
+                ],
                 "position": "Developer",
                 "url": "https://github.com/AGU-Data-System",
+                "clientUrl": "https://galp.com/pt/",
                 "logoPath": "TODO.svg",
                 "duration": "2024 - Present",
                 "technologies": [
                     {
-                        "skillName": "TypeScript",
-                        "icon": "devicon-typescript",
+                        "skillName": "Spring",
+                        "icon": "devicon-spring",
                         "style": {
-                            "color": "#007ACC",
-                            "fontSize": "32px"
-                        }
-                    },
-                    {
-                        "skillName": "React",
-                        "icon": "devicon-react",
-                        "style": {
-                            "color": "#61DAFB",
+                            "color": "#6DB33F",
                             "fontSize": "32px"
                         }
                     },
@@ -419,10 +488,26 @@
                         }
                     },
                     {
-                        "skillName": "Spring",
-                        "icon": "devicon-spring",
+                        "skillName": "React",
+                        "icon": "devicon-react",
                         "style": {
-                            "color": "#6DB33F",
+                            "color": "#61DAFB",
+                            "fontSize": "32px"
+                        }
+                    },
+                    {
+                        "skillName": "TypeScript",
+                        "icon": "devicon-typescript",
+                        "style": {
+                            "color": "#007ACC",
+                            "fontSize": "32px"
+                        }
+                    },
+                    {
+                        "skillName": "PostgresSQL",
+                        "icon": "devicon:postgresql",
+                        "style": {
+                            "color": "#336791",
                             "fontSize": "32px"
                         }
                     },
@@ -431,14 +516,6 @@
                         "icon": "devicon:docker",
                         "style": {
                             "color": "#2496ED",
-                            "fontSize": "32px"
-                        }
-                    },
-                    {
-                        "skillName": "PostgreSQL",
-                        "icon": "devicon:postgresql",
-                        "style": {
-                            "color": "#336791",
                             "fontSize": "32px"
                         }
                     }

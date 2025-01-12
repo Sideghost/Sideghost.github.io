@@ -25,7 +25,7 @@ export default function Education() {
                                 Education
                             </h1>
                             <h3 className="heading-sub-text">
-                                Basic Qualification and Certifications
+                                Qualifications and Certifications
                             </h3>
                             <p className="experience-header-detail-text subTitle">
                                 {data.education.description}
