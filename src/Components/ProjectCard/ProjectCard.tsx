@@ -76,9 +76,11 @@ function ProjectCard({project}) {
                                 {project.technologies.map((skill) => {
                                     return (
                                         <Tooltip title={skill.skillName} placement="top" key={skill.skillName}>
-                                            <li className="software-skill-inline">
-                                                <Icon icon={skill.icon} style={skill.style}/>
-                                            </li>
+                                            <span>
+                                                <li className="software-skill-inline">
+                                                    <Icon icon={skill.icon} style={skill.style}/>
+                                                </li>
+                                            </span>
                                         </Tooltip>
                                     );
                                 })}
