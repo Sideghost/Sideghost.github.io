@@ -255,7 +255,7 @@
                 "title": "Cloud Infrastructure & Databases",
                 "imagePath": "server-bro.svg",
                 "skills": [
-                    "🌐 Experience Cloud development for high availability applications.",
+                    "🌐 Experience in Cloud development for high availability applications.",
                     "🌐 Proficient in Docker for efficient application deployment through containerization.",
                     "🌐 Experience in developing software using several databases for persistent data."
                 ],
@@ -308,18 +308,11 @@
                 "title": "OS & System Architecture",
                 "imagePath": "source-code-bro.svg",
                 "skills": [
-                    "🌐 Proficient in Docker for efficient application deployment through containerization.",
                     "🌐 Experience in Linux for effective server management and administration.",
-                    "🌐 Experience in developing software using PostgresSQL and MongoDB for persistent data."
+                    "🌐 Familiarized with the android paradigm for developing software for android devices.",
+                    "🌐 Experience in Tomcat server for efficient web application deployment."
                 ],
                 "softwareSkills": [
-                    {
-                        "skillName": "Docker",
-                        "icon": "devicon:docker",
-                        "style": {
-                            "color": "#2496ED"
-                        }
-                    },
                     {
                         "skillName": "Linux",
                         "icon": "flat-color-icons:linux",
@@ -468,7 +461,7 @@
                 "position": "Developer",
                 "url": "https://github.com/AGU-Data-System",
                 "clientUrl": "https://galp.com/pt/",
-                "logoPath": "TODO.svg",
+                "logoPath": "AGU_logo_white_background_circle.png",
                 "duration": "2024 - Present",
                 "technologies": [
                     {
