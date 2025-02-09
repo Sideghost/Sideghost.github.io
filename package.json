@@ -29,7 +29,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "format": "prettier --write src/**/*.{ts,tsx}",
     "lint": "eslint src/**/*.{ts,tsx}",
     "build": "react-scripts build"
   },
