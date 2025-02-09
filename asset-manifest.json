@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7a607d01.css",
-    "main.js": "/static/js/main.850b681b.js",
+    "main.js": "/static/js/main.ba59e4bf.js",
     "static/media/AGU_logo_white_background_circle.png": "/static/media/AGU_logo_white_background_circle.f0790563b12a8e3cc942.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/server-bro.svg": "/static/media/server-bro.6a5bfc7f99aa7e3a0b58.svg",
@@ -42,10 +42,10 @@
     "static/media/TODO.svg": "/static/media/TODO.3517c3d5bf1f92d3d994.svg",
     "index.html": "/index.html",
     "main.7a607d01.css.map": "/static/css/main.7a607d01.css.map",
-    "main.850b681b.js.map": "/static/js/main.850b681b.js.map"
+    "main.ba59e4bf.js.map": "/static/js/main.ba59e4bf.js.map"
   },
   "entrypoints": [
     "static/css/main.7a607d01.css",
-    "static/js/main.850b681b.js"
+    "static/js/main.ba59e4bf.js"
   ]
 }
