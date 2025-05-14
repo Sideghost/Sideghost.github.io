@@ -108,6 +108,20 @@
                         }
                     },
                     {
+                        "skillName": "CUDA",
+                        "icon": "devicon:cplusplus",
+                        "style": {
+                            "color": "#00599C"
+                        }
+                    },
+                    {
+                        "skillName": "OCaml",
+                        "icon": "devicon:ocaml",
+                        "style": {
+                            "color": "#76B900"
+                        }
+                    },
+                    {
                         "skillName": "Git",
                         "icon": "devicon:git",
                         "style": {
@@ -405,7 +419,7 @@
                 "logoPath": "vodafone.png",
                 "description": [
                     "🌐 Enhanced a pre-existing automated test scheduling system, which already used Java 8 and Quartz but was limited to scheduling a single test execution. The system was upgraded to support grouping test executions by recurrence and alarms, scaling from 1 execution to an MxN model for increased flexibility.",
-                    "🌐 A key challenge was optimizing the existing Quartz setup to efficiently handle multiple concurrent executions without degrading performance. By refining Quartz configurations and improving the responsiveness of the upgraded GUI, the system now manages a higher volume of test executions seamlessly."
+                    "🌐 Currently contributing to the development of a full-stack production application that enables users to create and manage automated tests across both development and production environments. The platform supports testing for existing features as well as newly developed functionalities, ensuring robust quality assurance and continuous integration within a live application ecosystem."
                 ],
                 "url": "https://www.vodafone.pt"
             },
